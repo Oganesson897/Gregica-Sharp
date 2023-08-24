@@ -92,6 +92,9 @@ repositories {
             includeGroup 'curse.maven'
         }
     }
+    maven {url 'https://maven.blamejared.com'}
+    maven {url 'https://api.modrinth.com/maven'}
+    maven {url 'https://oss.sonatype.org/content/groups/public/'}
     mavenLocal() // Must be last for caching to work
 }
 
@@ -105,6 +108,15 @@ dependencies {
 
     // Example of deobfuscating a dependency
     // implementation rfg.deobf('curse.maven:had-enough-items-557549:4543375')
+    implementation rfg.deobf("maven.modrinth:gregtech-ce-unofficial:${ceu_version}")
+    implementation rfg.deobf("curse.maven:code-chicken-lib-1-8-242818:2779848")
+    implementation rfg.deobf("maven.modrinth:gregicality-multiblocks:${gcym_version}")
+
+    implementation rfg.deobf("curse.maven:top-${top_pid}:${top_fid}")
+    implementation rfg.deobf("curse.maven:ctm-${ctm_pid}:${ctm_fid}")
+
+    implementation "mezz.jei:jei_1.12.2:${jei_version}"
+
 
     if (project.use_mixins.toBoolean()) {
         // Change your mixin refmap name here:
