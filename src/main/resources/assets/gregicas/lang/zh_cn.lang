@@ -1,0 +1,86 @@
+# Misc
+itemGroup.gregica=Gregica#
+
+# Circuits
+# Gooware
+metaitem.circuit.gooware_processor.name=化学处理器
+metaitem.circuit.gooware_processor.tooltip=反应扩散计算/n§2ZPM级电路
+metaitem.circuit.gooware_assembly.name=化学处理器集群
+metaitem.circuit.gooware_assembly.tooltip=循环浓度/n§2UV级电路
+metaitem.circuit.gooware_computer.name=化学超级计算机
+metaitem.circuit.gooware_computer.tooltip=复波现象！/n§2UHV级电路
+metaitem.circuit.gooware_mainframe.name=化学电脑主机
+metaitem.circuit.gooware_mainframe.tooltip=螺旋彩色波浪！/n§2UEV级电路
+
+# Optical
+metaitem.circuit.optical_processor.name=光学处理器
+metaitem.circuit.optical_processor.tooltip=光速运算/n§6UV级电路
+metaitem.circuit.optical_assembly.name=光学处理器集群
+metaitem.circuit.optical_assembly.tooltip=以激光之力！/n§6UHV级电路
+metaitem.circuit.optical_computer.name=光学超级计算机
+metaitem.circuit.optical_computer.tooltip=眨眼之间/n§6UEV级电路
+metaitem.circuit.optical_mainframe.name=光学电脑主机
+metaitem.circuit.optical_mainframe.tooltip=比此更快之物？/n§6UIV级电路
+
+# Spintronic
+metaitem.circuit.spintronic_processor.name=自旋电子学处理器
+metaitem.circuit.spintronic_processor.tooltip=自旋电子/n§5UHV级电路
+metaitem.circuit.spintronic_assembly.name=自旋电子学处理器集群
+metaitem.circuit.spintronic_assembly.tooltip=离散量子漫步/n§5UEV级电路
+metaitem.circuit.spintronic_computer.name=自旋电子学超级计算机
+metaitem.circuit.spintronic_computer.tooltip=弹道自旋过滤/n§5UIV级电路
+metaitem.circuit.spintronic_mainframe.name=自旋电子学电脑主机
+metaitem.circuit.spintronic_mainframe.tooltip=自旋波逻辑！/n§5UXV级电路
+
+
+# Cosmic
+metaitem.circuit.cosmic_processor.name=寰宇处理器
+metaitem.circuit.cosmic_processor.tooltip=来自星空/n§8UEV级电路
+metaitem.circuit.cosmic_assembly.name=寰宇处理器集群
+metaitem.circuit.cosmic_assembly.tooltip=微宇宙运行平台/n§8UIV级电路
+metaitem.circuit.cosmic_computer.name=寰宇超级计算机
+metaitem.circuit.cosmic_computer.tooltip=无可匹敌/n§8UXV级电路
+metaitem.circuit.cosmic_mainframe.name=寰宇电脑主机
+metaitem.circuit.cosmic_mainframe.tooltip=浩渺/n§8OpV级电路
+
+# Supracausal
+metaitem.circuit.supracausal_processor.name=超因果处理器
+metaitem.circuit.supracausal_processor.tooltip=借助黑洞的力量/n§fUIV级电路
+metaitem.circuit.supracausal_assembly.name=超因果处理器集群
+metaitem.circuit.supracausal_assembly.tooltip=史诗般的奇点/n§fUXV级电路
+metaitem.circuit.supracausal_computer.name=超因果超级计算机
+metaitem.circuit.supracausal_computer.tooltip=利用虫洞来发挥我们的优势/n§fOpV级电路
+metaitem.circuit.supracausal_mainframe.name=超因果电脑主机
+metaitem.circuit.supracausal_mainframe.tooltip=问题前的回答/n§fMAX级电路
+
+# Suprachronal
+metaitem.circuit.suprachronal.ulv.name=超时空原始电路
+metaitem.circuit.suprachronal.ulv.tooltip=§fULV级电路/n
+metaitem.circuit.suprachronal.lv.name=超时空基础电路
+metaitem.circuit.suprachronal.lv.tooltip=§fLV级电路/n
+metaitem.circuit.suprachronal.mv.name=超时空良好电路
+metaitem.circuit.suprachronal.mv.tooltip=§fMV级电路/n
+metaitem.circuit.suprachronal.hv.name=超时空高级电路
+metaitem.circuit.suprachronal.hv.tooltip=§fHV级电路/n
+metaitem.circuit.suprachronal.ev.name=超时空极限电路
+metaitem.circuit.suprachronal.ev.tooltip=§fEV级电路/n
+metaitem.circuit.suprachronal.iv.name=超时空精英电路
+metaitem.circuit.suprachronal.iv.tooltip=§fIV级电路/n
+metaitem.circuit.suprachronal.luv.name=超时空大师电路
+metaitem.circuit.suprachronal.luv.tooltip=§fLuV级电路/n
+metaitem.circuit.suprachronal.zpm.name=超时空终极电路
+metaitem.circuit.suprachronal.zpm.tooltip=§fZPM级电路/n
+metaitem.circuit.suprachronal.uv.name=超时空超级电路
+metaitem.circuit.suprachronal.uv.tooltip=§fUV级电路/n
+metaitem.circuit.suprachronal.uhv.name=超时空无限电路
+metaitem.circuit.suprachronal.uhv.tooltip=§fUHV级电路/n
+metaitem.circuit.suprachronal.uev.name=超时空史诗电路
+metaitem.circuit.suprachronal.uev.tooltip=§fUEV级电路/n
+metaitem.circuit.suprachronal.uiv.name=超时空疯狂电路
+metaitem.circuit.suprachronal.uiv.tooltip=§fUIV级电路/n
+metaitem.circuit.suprachronal.uxv.name=超时空传说电路
+metaitem.circuit.suprachronal.uxv.tooltip=§fUXV级电路/n
+metaitem.circuit.suprachronal.opv.name=超时空过载电路
+metaitem.circuit.suprachronal.opv.tooltip=§fOpV级电路/n
+metaitem.circuit.suprachronal.max.name=超时空高强电路
+metaitem.circuit.suprachronal.max.tooltip=§fMAX级电路/n

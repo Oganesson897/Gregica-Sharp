@@ -3,6 +3,7 @@ package me.oganesson.gregicas;
 import gregtech.common.ConfigHolder;
 import me.oganesson.gregicas.api.utils.GSLog;
 import me.oganesson.gregicas.common.CommonProxy;
+import me.oganesson.gregicas.common.item.GSMetaItems;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLConstructionEvent;
@@ -41,6 +42,7 @@ public class GregicaSharp {
     public void onPreInit(FMLPreInitializationEvent event)
     {
         GSLog.init(event.getModLog());
+        GSMetaItems.initialization();
         proxy.preLoad();
     }
 
