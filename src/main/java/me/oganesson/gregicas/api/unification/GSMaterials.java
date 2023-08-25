@@ -6,9 +6,15 @@ import me.oganesson.gregicas.api.unification.materials.GSOrganicChemistryMateria
 public class GSMaterials {
 
     public static Material NitrileButadieneRubber;
-    public static Material FluorosiliconeElastomer;
+    public static Material FluoroResin2314;
     public static Material FluoroPhosphazeneRubber;
     public static Material Acrylonitrile;
+    public static Material Difluoroethylene;
+    public static Material Chlorotrifluoroethylene;
+    public static Material Acetylene;
+    public static Material HydrogenCyanide;
+    public static Material Difluoroethane;
+    public static Material R142b;
 
     //Range: 29000 - 31000
 

@@ -7,7 +7,8 @@ public class GSRecipeManager
 
     public static void init()
     {
-        GCCircuitRecipes.init();
+        GSCircuitRecipes.init();
+        GSMachineRecipes.init();
     }
 
 }

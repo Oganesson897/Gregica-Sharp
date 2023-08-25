@@ -4,6 +4,10 @@ import gregtech.client.renderer.texture.cube.OrientedOverlayRenderer;
 
 public class GSTextures {
 
-    public static final OrientedOverlayRenderer LIGHTNING_ROD_OVERLAY = new OrientedOverlayRenderer("generators/lightning_rod");
+    public static OrientedOverlayRenderer LIGHTNING_ROD_OVERLAY;
+
+    public static void init() {
+        LIGHTNING_ROD_OVERLAY = new OrientedOverlayRenderer("generators/lightning_rod");
+    }
 
 }

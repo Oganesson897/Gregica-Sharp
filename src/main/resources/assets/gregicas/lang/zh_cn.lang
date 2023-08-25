@@ -1,6 +1,12 @@
 # Misc
 itemGroup.gregica=Gregica#
 
+# Info
+gregicas.machine.lightning_rod.hv.name=避雷针 I
+gregicas.machine.lightning_rod.ev.name=避雷针 II
+gregicas.machine.lightning_rod.iv.name=避雷针 III
+gregicas.machine.lightning_rod.usage=§b用法§r:将§b原版的§r铁栏杆放置其上,每当雨天或雷雨天时它就会产生能量。
+
 # Circuits
 # Gooware
 metaitem.circuit.gooware_processor.name=化学处理器
@@ -84,3 +90,13 @@ metaitem.circuit.suprachronal.opv.name=超时空过载电路
 metaitem.circuit.suprachronal.opv.tooltip=§fOpV级电路/n
 metaitem.circuit.suprachronal.max.name=超时空高强电路
 metaitem.circuit.suprachronal.max.tooltip=§fMAX级电路/n
+
+# Materials
+gregtech.material.nitrile_butadiene_rubber=丁腈橡胶
+gregtech.material.fluoro_resin_2314=氟橡胶23
+gregtech.material.fluoro_phosphazene_rubber=氟化磷腈橡胶
+gregtech.material.acrylonitrile=丙烯腈
+gregtech.material.difluoroethylene=偏氟乙烯
+gregtech.material.chlorotrifluoroethylene=三氟氯乙烯
+gregtech.material.acetylene=乙炔
+gregtech.material.hydrogen_cyanide=氰化氢

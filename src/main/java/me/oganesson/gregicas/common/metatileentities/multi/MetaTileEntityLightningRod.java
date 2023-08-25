@@ -190,8 +190,8 @@ public class MetaTileEntityLightningRod extends TieredMetaTileEntity {
         if (I18n.hasKey(mainKey)) {
             tooltip.add(1, I18n.format(mainKey));
         }
-        tooltip.add(I18n.format("gregicas.universal.tooltip.voltage_out", energyContainer.getOutputVoltage(), GTValues.VNF[getTier()]));
-        tooltip.add(I18n.format("gregicas.universal.tooltip.energy_storage_capacity", energyContainer.getEnergyCapacity()));
+        tooltip.add(I18n.format("gregtech.universal.tooltip.voltage_out", energyContainer.getOutputVoltage(), GTValues.VNF[getTier()]));
+        tooltip.add(I18n.format("gregtech.universal.tooltip.energy_storage_capacity", energyContainer.getEnergyCapacity()));
         tooltip.add(I18n.format("gregicas.machine.lightning_rod.usage"));
     }
 }

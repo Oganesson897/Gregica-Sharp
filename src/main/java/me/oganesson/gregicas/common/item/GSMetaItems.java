@@ -57,6 +57,12 @@ public class GSMetaItems
     public static MetaItem<?>.MetaValueItem SUPRACHRONAL_OpV;
     public static MetaItem<?>.MetaValueItem SUPRACHRONAL_MAX;
 
+    //Misc
+    public static MetaItem<?>.MetaValueItem RAW_NITRILE_BUTADIENE_RUBBER;
+    public static MetaItem<?>.MetaValueItem RAW_FLUORO_RESIN_2314;
+    public static MetaItem<?>.MetaValueItem RAW_FLUORO_PHOSPHAZENE_RUBBER;
+    //public static MetaItem<?>.MetaValueItem RAW_NITRILE_BUTADIENE_RUBBER;
+
     private GSMetaItems() {}
 
     public static void initialization()

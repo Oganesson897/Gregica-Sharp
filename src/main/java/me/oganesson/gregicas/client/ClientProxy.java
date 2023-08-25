@@ -16,6 +16,7 @@ public class ClientProxy extends CommonProxy {
     public void preLoad()
     {
         super.preLoad();
+        GSTextures.init();
     }
 
     @SubscribeEvent
