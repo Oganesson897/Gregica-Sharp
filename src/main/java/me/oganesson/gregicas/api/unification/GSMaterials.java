@@ -8,6 +8,7 @@ public class GSMaterials {
     public static Material NitrileButadieneRubber;
     public static Material FluorosiliconeElastomer;
     public static Material FluoroPhosphazeneRubber;
+    public static Material Acrylonitrile;
 
     //Range: 29000 - 31000
 

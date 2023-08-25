@@ -21,6 +21,14 @@ public class GSOrganicChemistryMaterial {
 
         GSMaterials.FluorosiliconeElastomer = new Material.Builder(29001, gregtechId("fluorosilicone_elastomer"))
                 .build();
+
+        GSMaterials.FluoroPhosphazeneRubber = new Material.Builder(29002, gregtechId("fluoro_phosphazene_rubber"))
+                .build();
+
+        GSMaterials.Acrylonitrile = new Material.Builder(29003, gregtechId("acrylonitrile"))
+                .components(Carbon, 3, Hydrogen, 3, Nitrogen, 1)
+                .polymer()
+                .build();
     }
 
 }

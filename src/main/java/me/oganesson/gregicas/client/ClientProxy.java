@@ -1,5 +1,6 @@
 package me.oganesson.gregicas.client;
 
+import me.oganesson.gregicas.client.textures.GSTextures;
 import me.oganesson.gregicas.common.CommonProxy;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.fml.common.Mod;

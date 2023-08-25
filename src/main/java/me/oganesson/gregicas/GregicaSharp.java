@@ -4,6 +4,7 @@ import gregtech.common.ConfigHolder;
 import me.oganesson.gregicas.api.utils.GSLog;
 import me.oganesson.gregicas.common.CommonProxy;
 import me.oganesson.gregicas.common.item.GSMetaItems;
+import me.oganesson.gregicas.common.metatileentities.GSMetaTileEntities;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLConstructionEvent;
@@ -43,6 +44,7 @@ public class GregicaSharp {
     {
         GSLog.init(event.getModLog());
         GSMetaItems.initialization();
+        GSMetaTileEntities.initialization();
         proxy.preLoad();
     }
 
