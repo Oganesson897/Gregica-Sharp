@@ -81,6 +81,26 @@ public class GSOrganicChemistryMaterial {
                 .flags(DISABLE_DECOMPOSITION)
                 .color(0x90EE90)
                 .build();
+        
+        RawNitrileButadieneRubber = new Material.Builder(29010, gregtechId("raw_nitrile_butadiene_rubber"))
+                .dust()
+                .color(0x211A18)
+                .flags(DISABLE_DECOMPOSITION)
+                .components(Carbon, 7, Hydrogen, 9, Nitrogen, 1)
+                .build();
+
+        CalciumCarbide = new Material.Builder(29011, gregtechId("calcium_carbide"))
+                .dust()
+                .color(0x696969)
+                .flags(DISABLE_DECOMPOSITION)
+                .components(Calcium, 1, Carbon, 2)
+                .build();
+
+        CalciumHydroxide = new Material.Builder(29012, gregtechId("calcium_hydroxide"))
+                .dust()
+                .color(0xF5F5F5)
+                .components(Calcium, 1,Oxygen , 2,Hydrogen , 2)
+                .build();
     }
 
 }
