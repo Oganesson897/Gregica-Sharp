@@ -70,9 +70,16 @@ public class GSOrganicChemistryMaterial {
 
         Difluoroethane = new Material.Builder(29008, gregtechId("difluoroethane"))
                 .components(Carbon, 2, Hydrogen, 4, Fluorine, 2)
+                .fluid(FluidTypes.GAS, false)
+                .flags(DISABLE_DECOMPOSITION)
+                .color(0xE1FFFF)
                 .build();
 
         R142b = new Material.Builder(29009, gregtechId("r142b"))
+                .components(Carbon, 2, Hydrogen, 3, Chlorine, 1, Fluorine, 2)
+                .fluid(FluidTypes.GAS, false)
+                .flags(DISABLE_DECOMPOSITION)
+                .color(0x90EE90)
                 .build();
     }
 
