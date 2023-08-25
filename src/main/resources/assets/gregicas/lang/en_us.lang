@@ -1,54 +1,54 @@
 #电路s
 # Gooware
 metaitem.circuit.gooware_processor.name=Gooware Processor
-metaitem.circuit.gooware_processor.tooltip=Reaction-Diffusion Computation/n§2ZPM级电路
+metaitem.circuit.gooware_processor.tooltip=Reaction-Diffusion Computation/n§2ZPM-tier Circuit
 metaitem.circuit.gooware_assembly.name=Gooware Assembly
-metaitem.circuit.gooware_assembly.tooltip=Cyclic Concentration/n§2UV级电路
+metaitem.circuit.gooware_assembly.tooltip=Cyclic Concentration/n§2UV-tier Circuit
 metaitem.circuit.gooware_computer.name=Gooware Supercomputer
-metaitem.circuit.gooware_computer.tooltip=Complex Wave Phenomena!/n§2UHV级电路
+metaitem.circuit.gooware_computer.tooltip=Complex Wave Phenomena!/n§2UHV-tier Circuit
 metaitem.circuit.gooware_mainframe.name=Gooware Mainframe
-metaitem.circuit.gooware_mainframe.tooltip=Spiraling Colored Waves!/n§2UEV级电路
+metaitem.circuit.gooware_mainframe.tooltip=Spiraling Colored Waves!/n§2UEV-tier Circuit
 
 # Optical
 metaitem.circuit.optical_processor.name=Optical Processor
-metaitem.circuit.optical_processor.tooltip=Lightspeed Computing/n§6UV级电路
+metaitem.circuit.optical_processor.tooltip=Lightspeed Computing/n§6UV-tier Circuit
 metaitem.circuit.optical_assembly.name=Optical Assembly
-metaitem.circuit.optical_assembly.tooltip=With the Power of Lasers!/n§6UHV级电路
+metaitem.circuit.optical_assembly.tooltip=With the Power of Lasers!/n§6UHV-tier Circuit
 metaitem.circuit.optical_computer.name=Optical Supercomputer
-metaitem.circuit.optical_computer.tooltip=In the Blink of an Eye/n§6UEV级电路
+metaitem.circuit.optical_computer.tooltip=In the Blink of an Eye/n§6UEV-tier Circuit
 metaitem.circuit.optical_mainframe.name=Optical Mainframe
-metaitem.circuit.optical_mainframe.tooltip=Could Anything be faster?/n§6UIV级电路
+metaitem.circuit.optical_mainframe.tooltip=Could Anything be faster?/n§6UIV-tier Circuit
 
 # Spintronic
 metaitem.circuit.spintronic_processor.name=Spintronic Processor
-metaitem.circuit.spintronic_processor.tooltip=Spinning Electrons/n§5UHV级电路
+metaitem.circuit.spintronic_processor.tooltip=Spinning Electrons/n§5UHV-tier Circuit
 metaitem.circuit.spintronic_assembly.name=Spintronic Assembly
-metaitem.circuit.spintronic_assembly.tooltip=Discrete Quantum Walks/n§5UEV级电路
+metaitem.circuit.spintronic_assembly.tooltip=Discrete Quantum Walks/n§5UEV-tier Circuit
 metaitem.circuit.spintronic_computer.name=Spintronic Supercomputer
-metaitem.circuit.spintronic_computer.tooltip=Ballistic Spin Filtration/n§5UIV级电路
+metaitem.circuit.spintronic_computer.tooltip=Ballistic Spin Filtration/n§5UIV-tier Circuit
 metaitem.circuit.spintronic_mainframe.name=Spintronic Mainframe
-metaitem.circuit.spintronic_mainframe.tooltip=Spin-Wave Logic!/n§5UXV级电路
+metaitem.circuit.spintronic_mainframe.tooltip=Spin-Wave Logic!/n§5UXV-tier Circuit
 
 
 # Cosmic
 metaitem.circuit.cosmic_processor.name=Cosmic Processor
-metaitem.circuit.cosmic_processor.tooltip=From the Cosmos/n§8UEV级电路
+metaitem.circuit.cosmic_processor.tooltip=From the Cosmos/n§8UEV-tier Circuit
 metaitem.circuit.cosmic_assembly.name=Cosmic Assembly
-metaitem.circuit.cosmic_assembly.tooltip=Microuniverse Operating Platform/n§8UIV级电路
+metaitem.circuit.cosmic_assembly.tooltip=Microuniverse Operating Platform/n§8UIV-tier Circuit
 metaitem.circuit.cosmic_computer.name=Cosmic Supercomputer
-metaitem.circuit.cosmic_computer.tooltip=Unrivaled/n§8UXV级电路
+metaitem.circuit.cosmic_computer.tooltip=Unrivaled/n§8UXV-tier Circuit
 metaitem.circuit.cosmic_mainframe.name=Cosmic Mainframe
-metaitem.circuit.cosmic_mainframe.tooltip=Vast/n§8OpV级电路
+metaitem.circuit.cosmic_mainframe.tooltip=Vast/n§8OpV-tier Circuit
 
 # Supracausal
 metaitem.circuit.supracausal_processor.name=Supra-Causal Processor
-metaitem.circuit.supracausal_processor.tooltip=With the Power of Black Holes/n§fUIV级电路
+metaitem.circuit.supracausal_processor.tooltip=With the Power of Black Holes/n§fUIV-tier Circuit
 metaitem.circuit.supracausal_assembly.name=Supra-Causal Assembly
-metaitem.circuit.supracausal_assembly.tooltip=Singularities on an Epic scale/n§fUXV级电路
+metaitem.circuit.supracausal_assembly.tooltip=Singularities on an Epic scale/n§fUXV-tier Circuit
 metaitem.circuit.supracausal_computer.name=Supra-Causal Supercomputer
-metaitem.circuit.supracausal_computer.tooltip=Using Wormholes to our Advantage/n§fOpV级电路
+metaitem.circuit.supracausal_computer.tooltip=Using Wormholes to our Advantage/n§fOpV-tier Circuit
 metaitem.circuit.supracausal_mainframe.name=Supra-Causal Mainframe
-metaitem.circuit.supracausal_mainframe.tooltip=Answers before questions/n§fMAX级电路
+metaitem.circuit.supracausal_mainframe.tooltip=Answers before questions/n§fMAX-tier Circuit
 
 # Suprachronal
 metaitem.circuit.suprachronal.ulv.name=Supra-Chronal Primitive Circuit

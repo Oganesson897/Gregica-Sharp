@@ -2,6 +2,7 @@ package me.oganesson.gregicas.common;
 
 import gregtech.common.items.MetaItems;
 import me.oganesson.gregicas.api.utils.GSLog;
+import me.oganesson.gregicas.loaders.recipe.GSRecipeManager;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -63,6 +64,7 @@ public class CommonProxy {
     public static void registerRecipes(RegistryEvent.Register<IRecipe> event)
     {
         GSLog.logger.info("Registering recipes...");
+        GSRecipeManager.init();
     }
 
 }
