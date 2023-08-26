@@ -64,7 +64,7 @@ LARGE_CHEMICAL_RECIPES.recipeBuilder()
   .notConsumable(dust, Lanthanum)
   .fluidInputs(Acetylene.getFluid(1000))
   .fluidInputs(HydrofluoricAcid.getFluid(2000))
-  .fluidOutputs(Difluoroethane.getFluid(1000))
+  .fluidOutputs(R152a.getFluid(1000))
   .duration(240)
   .EUt(24576)
   .buildAndRegister();
