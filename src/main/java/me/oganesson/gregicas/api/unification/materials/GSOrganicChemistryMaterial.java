@@ -40,7 +40,7 @@ public class GSOrganicChemistryMaterial {
                 .flags(DISABLE_DECOMPOSITION)
                 .build();
 
-        Difluoroethylene = new Material.Builder(29004, gregtechId("difluoroethylene"))
+        R152a = new Material.Builder(29004, gregtechId("r152a"))
                 .fluid(FluidTypes.GAS, false)
                 .components(Carbon, 2, Hydrogen, 2, Fluorine, 2)
                 .flags(DISABLE_DECOMPOSITION)
