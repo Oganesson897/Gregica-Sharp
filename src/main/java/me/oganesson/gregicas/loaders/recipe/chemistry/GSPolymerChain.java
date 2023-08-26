@@ -57,3 +57,14 @@ CHEMICAL_RECIPES.recipeBuilder()
   .duration(200)
   .EUt(512)
   .buildAndRegister();
+
+LARGE_CHEMICAL_RECIPES.recipeBuilder()
+  .notConsumable(dust, CobaltOxide)
+  .notConsumable(dust, Zincite)
+  .notConsumable(dust, Lanthanum)
+  .fluidInputs(Acetylene.getFluid(1000))
+  .fluidInputs(HydrofluoricAcid.getFluid(2000))
+  .fluidOutputs(Difluoroethane.getFluid(1000))
+  .duration(240)
+  .EUt(24576)
+  .buildAndRegister();
