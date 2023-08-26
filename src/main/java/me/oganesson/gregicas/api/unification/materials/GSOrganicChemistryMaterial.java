@@ -102,9 +102,15 @@ public class GSOrganicChemistryMaterial {
                 .components(Calcium, 1,Oxygen , 2,Hydrogen , 2)
                 .build();
 
-        R152aChlorideMixture = new Material.Builder(29008, gregtechId("r152a_chloride_mixture"))
+        R152aChlorideMixture = new Material.Builder(29013, gregtechId("r152a_chloride_mixture"))
                 .fluid(FluidTypes.GAS, false)
                 .color(0xECFFBF)
+                .build();
+
+        AluminiumFluoride = new Material.Builder(29014, gregtechId("aluminium_fluoride"))
+                .dust()
+                .color(0xFF69B4)
+                .components(Aluminium, 1, Fluorine, 3)
                 .build();
     }
 
