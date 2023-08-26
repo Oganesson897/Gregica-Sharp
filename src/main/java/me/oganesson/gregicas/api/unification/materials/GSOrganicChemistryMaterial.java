@@ -40,7 +40,7 @@ public class GSOrganicChemistryMaterial {
                 .flags(DISABLE_DECOMPOSITION)
                 .build();
 
-        R152a = new Material.Builder(29004, gregtechId("r152a"))
+        VDF = new Material.Builder(29004, gregtechId("vdf"))
                 .fluid(FluidTypes.GAS, false)
                 .components(Carbon, 2, Hydrogen, 2, Fluorine, 2)
                 .flags(DISABLE_DECOMPOSITION)
@@ -68,7 +68,7 @@ public class GSOrganicChemistryMaterial {
                 .color(0xB0CDA7)
                 .build();
 
-        Difluoroethane = new Material.Builder(29008, gregtechId("difluoroethane"))
+        R152a = new Material.Builder(29008, gregtechId("r152a"))
                 .components(Carbon, 2, Hydrogen, 4, Fluorine, 2)
                 .fluid(FluidTypes.GAS, false)
                 .flags(DISABLE_DECOMPOSITION)
@@ -100,6 +100,11 @@ public class GSOrganicChemistryMaterial {
                 .dust()
                 .color(0xF5F5F5)
                 .components(Calcium, 1,Oxygen , 2,Hydrogen , 2)
+                .build();
+
+        R152aChlorideMixture = new Material.Builder(29008, gregtechId("r152a_chloride_mixture"))
+                .fluid(FluidTypes.GAS, false)
+                .color(0xECFFBF)
                 .build();
     }
 
