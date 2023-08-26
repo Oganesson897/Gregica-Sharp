@@ -52,19 +52,46 @@ CHEMICAL_RECIPES.recipeBuilder()
 
 CHEMICAL_RECIPES.recipeBuilder()
   .input(dust, RawNitrileButadieneRubber, 9)
-  .input(dust, Sulfur, 9)
+  .input(dust, Sulfur, 1)
   .fluidOutputs(NitrileButadieneRubber.getFluid(1296))
   .duration(200)
   .EUt(512)
   .buildAndRegister();
 
+CHEMICAL_RECIPES.recipeBuilder()
+  .input(dust, Aluminium, 1)
+  .fluidInputs(Fluorine.getFluid(3000))
+  .output(dust, AluminiumFluoride, 1)
+  .duration(300)
+  .EUt(128)
+  .buildAndRegister();
+
 LARGE_CHEMICAL_RECIPES.recipeBuilder()
-  .notConsumable(dust, CobaltOxide)
-  .notConsumable(dust, Zincite)
-  .notConsumable(dust, Lanthanum)
+  .notConsumable(dust, AluminiumFluoride)
   .fluidInputs(Acetylene.getFluid(1000))
   .fluidInputs(HydrofluoricAcid.getFluid(2000))
   .fluidOutputs(R152a.getFluid(1000))
   .duration(240)
   .EUt(24576)
   .buildAndRegister();
+
+LARGE_CHEMICAL_RECIPES.recipeBuilder()
+  .notConsumable(dust, AntimonyPentalfluoride)
+  .fluidInputs(VinylChloride.getFluid(1000))
+  .fluidInputs(HydrofluoricAcid.getFluid(2000))
+  .fluidOutputs(R152a.getFluid(1000))
+  .fluidOutputs(HydrochloricAcid.getFluid(1000))
+  .duration(600)
+  .EUt(98272)
+  .buildAndRegister();
+
+LARGE_CHEMICAL_RECIPES.recipeBuilder()
+  .notConsumable(dust, MagnesiumChloride)
+  .fluidInputs(R152a.getFluid(1000))
+  .fluidInputs(Chlorine.getFluid(2000))
+  .fluidOutputs(R152aChlorideMixture.getFluid(1000))
+  .duration(200)
+  .EUt(98304)
+  .buildAndRegister();
+
+
