@@ -112,6 +112,18 @@ public class GSOrganicChemistryMaterial {
                 .color(0xFF69B4)
                 .components(Aluminium, 1, Fluorine, 3)
                 .build();
+        
+        AntimonousChloride = new Material.Builder(29015, gregtechId("antimonous_chloride"))
+                .dust()
+                .color(0x808000)
+                .components(Antimony, 1, Chlorine, 3)
+                .build();
+
+        AntimonousVChloride = new Material.Builder(29016, gregtechId("antimonous_v_chloride"))
+                .fluid(FluidTypes.LIQUID, false)
+                .color(0xBDB76B)
+                .components(Antimony, 1, Chlorine, 5)
+                .build();
     }
 
 }
