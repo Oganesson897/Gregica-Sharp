@@ -21,10 +21,10 @@ BLAST_RECIPES.recipeBuilder()
   .buildAndRegister();
 
 CHEMICAL_RECIPES.recipeBuilder()
-  .fluidInputs(Water.getFluid(1000))
+  .fluidInputs(Water.getFluid(2000))
   .input(dust, CalciumCarbide, 1)
   .fluidOutputs(Acetylene.getFluid(1000))
-  .output(dust, Quicklime, 2)
+  .output(dust, CalciumHydroxide , 2)
   .duration(40)
   .EUt(128)
   .buildAndRegister();
@@ -94,4 +94,21 @@ LARGE_CHEMICAL_RECIPES.recipeBuilder()
   .EUt(98304)
   .buildAndRegister();
 
+DISTILLATION_TOWER_RECIPES.recipeBuilder()
+  .fluidInputs(R152aChlorideMixture.getFluid(1000))
+  .fluidOutputs(HydrochloricAcid.getFluid(400))
+  .fluidOutputs(Chlorine.getFluid(100))
+  .fluidOutputs(R152a.getFluid(100))
+  .fluidOutputs(R142b.getFluid(400))
+  .duration(400)
+  .EUt(24576)
+  .buildAndRegister();
 
+CRACKER_RECIPES.recipeBuilder()
+  .notConsumable(dust, Nickel)
+  .fluidInputs(R142b.getFluid(1000))
+  .fluidOutputs(VDF.getFluid(1000))
+  .fluidOutputs(HydrochloricAcid.getFluid(400))
+  .duration(500)
+  .EUt(28672)
+  .buildAndRegister();
