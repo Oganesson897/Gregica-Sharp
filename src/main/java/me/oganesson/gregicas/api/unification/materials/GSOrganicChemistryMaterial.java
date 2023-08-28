@@ -124,6 +124,26 @@ public class GSOrganicChemistryMaterial {
                 .color(0xBDB76B)
                 .components(Antimony, 1, Chlorine, 5)
                 .build();
+
+        Hexachloroethane = new Material.Builder(29017, gregtechId("hexachloroethane"))
+                .dust()
+                .color(0xE6E6FA)
+                .flags(DISABLE_DECOMPOSITION)
+                .components(Carbon, 2, Chlorine, 6)
+                .build();
+
+        Fll3 = new Material.Builder(29017, gregtechId("f113"))
+                .fluid(FluidTypes.LIQUID, false)
+                .color(0xF5F5DC)
+                .flags(DISABLE_DECOMPOSITION)
+                .components(Carbon, 2, Chlorine, 3, Fluorine, 3)
+                .build();
+
+        ZincChloride = new Material.Builder(29012, gregtechId("zinc_chloride"))
+                .dust()
+                .color(0xF08080)
+                .components(Zinc, 1,Chlorine, 2)
+                .build();
     }
 
 }
