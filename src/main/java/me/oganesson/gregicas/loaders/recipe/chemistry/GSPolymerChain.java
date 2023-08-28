@@ -112,3 +112,12 @@ CRACKER_RECIPES.recipeBuilder()
   .duration(500)
   .EUt(28672)
   .buildAndRegister();
+
+LARGE_CHEMICAL_RECIPES.recipeBuilder()
+  .fluidInputs(VinylChloride.getFluid(1000))
+  .fluidInputs(Chlorine.getFluid(8000))
+  .output(dust, Hexachloroethane, 1)
+  .fluidOutputs(HydrochloricAcid.getFluid(3000))
+  .duration(800)
+  .EUt(98272)
+  .buildAndRegister();
