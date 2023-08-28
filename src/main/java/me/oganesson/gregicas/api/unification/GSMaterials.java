@@ -20,6 +20,11 @@ public class GSMaterials {
     public static Material CalciumHydroxide;
     public static Material R152aChlorideMixture;
     public static Material AluminiumFluoride;
+    public static Material AntimonousChloride;
+    public static Material AntimonousVChloride;
+    public static Material Hexachloroethane;
+    public static Material Fll3;
+    public static Material ZincChloride;
 
     //Range: 29000 - 31000
 

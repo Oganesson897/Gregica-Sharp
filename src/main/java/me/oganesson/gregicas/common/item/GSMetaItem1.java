@@ -54,8 +54,6 @@ public class GSMetaItem1 extends StandardMetaItem
         GSMetaItems.SUPRACHRONAL_UXV = this.addItem(32, "circuit.suprachronal.uxv").setUnificationData(OrePrefix.circuit, MarkerMaterials.Tier.UXV);
         GSMetaItems.SUPRACHRONAL_OpV = this.addItem(33, "circuit.suprachronal.opv").setUnificationData(OrePrefix.circuit, MarkerMaterials.Tier.OpV);
         GSMetaItems.SUPRACHRONAL_MAX = this.addItem(34, "circuit.suprachronal.max").setUnificationData(OrePrefix.circuit, MarkerMaterials.Tier.MAX);
-
-        GSMetaItems.RAW_NITRILE_BUTADIENE_RUBBER = this.addItem(35, "raw_nitrile_butadiene_rubber");
     }
 
 }
