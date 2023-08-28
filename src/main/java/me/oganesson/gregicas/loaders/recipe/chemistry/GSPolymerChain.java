@@ -121,3 +121,31 @@ LARGE_CHEMICAL_RECIPES.recipeBuilder()
   .duration(800)
   .EUt(98272)
   .buildAndRegister();
+
+LARGE_CHEMICAL_RECIPES.recipeBuilder()
+  .notConsumable(AntimonousVChloride.getFluid(1000))
+  .input(dust, Hexachloroethane, 1)
+  .fluidInputs(HydrofluoricAcid.getFluid(3000))
+  .fluidOutputs(Fll3.getFluid(1000))
+  .fluidOutputs(HydrochloricAcid.getFluid(3000))
+  .duration(800)
+  .EUt(98304)
+  .buildAndRegister();
+
+LARGE_CHEMICAL_RECIPES.recipeBuilder()
+  .input(dust, Zinc, 1)
+  .fluidInputs(Fll3.getFluid(1000))
+  .output(dust, ZincChloride, 1)
+  .fluidOutputs(Chlorotrifluoroethylene.getFluid(1000))
+  .duration(600)
+  .EUt(524288)
+  .buildAndRegister();
+
+LARGE_CHEMICAL_RECIPES.recipeBuilder()
+  .input(dust, Zinc, 1)
+  .fluidInputs(Fll3.getFluid(1000))
+  .output(dust, ZincChloride, 1)
+  .fluidOutputs(Chlorotrifluoroethylene.getFluid(1000))
+  .duration(800)
+  .EUt(524288)
+  .buildAndRegister();
