@@ -23,7 +23,7 @@ public class GSMaterials {
     public static Material AntimonousChloride;
     public static Material AntimonousVChloride;
     public static Material Hexachloroethane;
-    public static Material Fll3;
+    public static Material F113;
     public static Material ZincChloride;
 
     //Range: 29000 - 31000

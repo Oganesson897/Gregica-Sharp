@@ -1,7 +1,9 @@
 package me.oganesson.gregicas.common;
 
+import gregtech.api.block.VariantItemBlock;
 import gregtech.common.items.MetaItems;
 import me.oganesson.gregicas.api.utils.GSLog;
+import me.oganesson.gregicas.common.block.GSMetaBlocks;
 import me.oganesson.gregicas.loaders.recipe.GSRecipeManager;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
@@ -43,6 +45,7 @@ public class CommonProxy {
     {
         GSLog.logger.info("Registering blocks...");
         IForgeRegistry<Block> registry = event.getRegistry();
+        registry.register(GSMetaBlocks.MULTI_CASING);
     }
 
     @SubscribeEvent
@@ -50,7 +53,7 @@ public class CommonProxy {
     {
         GSLog.logger.info("Registering Items...");
         IForgeRegistry<Item> registry = event.getRegistry();
-
+        registry.register(createItemBlock(GSMetaBlocks.MULTI_CASING, VariantItemBlock::new));
 
     }
 

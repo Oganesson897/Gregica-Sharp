@@ -68,14 +68,14 @@ public class GSOrganicChemistryMaterial {
                 .color(0xB0CDA7)
                 .build();
 
-        R152a = new Material.Builder(29008, gregtechId("r152a"))
+        R152a = new Material.Builder(29008, gregtechId("r_152_a"))
                 .components(Carbon, 2, Hydrogen, 4, Fluorine, 2)
                 .fluid(FluidTypes.GAS, false)
                 .flags(DISABLE_DECOMPOSITION)
                 .color(0xE1FFFF)
                 .build();
 
-        R142b = new Material.Builder(29009, gregtechId("r142b"))
+        R142b = new Material.Builder(29009, gregtechId("r_142_b"))
                 .components(Carbon, 2, Hydrogen, 3, Chlorine, 1, Fluorine, 2)
                 .fluid(FluidTypes.GAS, false)
                 .flags(DISABLE_DECOMPOSITION)
@@ -102,7 +102,7 @@ public class GSOrganicChemistryMaterial {
                 .components(Calcium, 1,Oxygen , 2,Hydrogen , 2)
                 .build();
 
-        R152aChlorideMixture = new Material.Builder(29013, gregtechId("r152a_chloride_mixture"))
+        R152aChlorideMixture = new Material.Builder(29013, gregtechId("r_152_a_chloride_mixture"))
                 .fluid(FluidTypes.GAS, false)
                 .color(0xECFFBF)
                 .build();
@@ -132,14 +132,14 @@ public class GSOrganicChemistryMaterial {
                 .components(Carbon, 2, Chlorine, 6)
                 .build();
 
-        F113 = new Material.Builder(29017, gregtechId("f113"))
+        F113 = new Material.Builder(29018, gregtechId("f_113"))
                 .fluid(FluidTypes.LIQUID, false)
                 .color(0xF5F5DC)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Carbon, 2, Chlorine, 3, Fluorine, 3)
                 .build();
 
-        ZincChloride = new Material.Builder(29012, gregtechId("zinc_chloride"))
+        ZincChloride = new Material.Builder(29019, gregtechId("zinc_chloride"))
                 .dust()
                 .color(0xF08080)
                 .components(Zinc, 1,Chlorine, 2)
