@@ -132,7 +132,7 @@ public class GSOrganicChemistryMaterial {
                 .components(Carbon, 2, Chlorine, 6)
                 .build();
 
-        Fll3 = new Material.Builder(29017, gregtechId("f113"))
+        F113 = new Material.Builder(29017, gregtechId("f113"))
                 .fluid(FluidTypes.LIQUID, false)
                 .color(0xF5F5DC)
                 .flags(DISABLE_DECOMPOSITION)
