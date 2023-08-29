@@ -53,13 +53,23 @@ public class GSFirstDegreeMaterial {
                 .build();
 
     MetallicHydrogen = new Material.Builder(29205, "metallic_hydrogen")
-                .ingot().fluid()
+                .ingot()
+                .fluid()
                 .iconSet(MaterialIconSet.SHINY)
                 .flags(GENERATE_PLATE, GENERATE_RING, GENERATE_ROUND, GENERATE_ROTOR, GENERATE_BOLT_SCREW, GENERATE_GEAR, GENERATE_SMALL_GEAR, GENERATE_LONG_ROD, GENERATE_FRAME)
                 .fluidTemp(1)
                 .color(0x4682B4)
                 .fluidPipeProperties(10240, 24000, true, true, true, true)
                 .components(Hydrogen, 1)
+                .build();
+
+    SupersolidHelium = new Material.Builder(29206, "supersolid_helium")
+                .ingot()
+                .fluid()
+                .iconSet(MaterialIconSet.SHINY)
+                .fluidTemp(4)
+                .color(0xFFFF00)
+                .components(Helium, 1)
                 .build();
   
 }
