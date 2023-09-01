@@ -11,30 +11,26 @@ import net.minecraft.world.IBlockAccess;
 
 import javax.annotation.Nonnull;
 
-public class BlockMultiblockCasing extends VariantBlock<BlockMultiblockCasing.CasingType> {
-
-
-    public BlockMultiblockCasing() {
+public class BlockGearBox extends VariantBlock<BlockGearBox.BlockType> {
+    public BlockGearBox() {
         super(Material.IRON);
-        this.setTranslationKey("multiblock_casing");
+        this.setTranslationKey("gear_box.json");
         this.setHardness(5.0F);
         this.setResistance(10.0F);
         this.setSoundType(SoundType.METAL);
         this.setHarvestLevel("wrench", 2);
-        this.setDefaultState(this.getState(CasingType.HEAT_RESISTANT_CHEMICALLY_INERT_MACHINE_CASING));
     }
 
     public boolean canCreatureSpawn(@Nonnull IBlockState state, @Nonnull IBlockAccess world, @Nonnull BlockPos pos, @Nonnull EntityLiving.SpawnPlacementType type) {
         return false;
     }
 
-    public static enum CasingType implements IStringSerializable {
-        HEAT_RESISTANT_CHEMICALLY_INERT_MACHINE_CASING("heat_resistant_chemically_inert_machine_casing"),
-        ISA_MILL_CASING("isa_mill_casing");
-        
+    public static enum BlockType implements IStringSerializable {
+        ISA_MILL_GEARBOX("isa_mill_gearbox");
+
         private final String name;
 
-        CasingType(String name) {
+        BlockType(String name) {
             this.name = name;
         }
 
@@ -43,4 +39,5 @@ public class BlockMultiblockCasing extends VariantBlock<BlockMultiblockCasing.Ca
             return name;
         }
     }
+
 }

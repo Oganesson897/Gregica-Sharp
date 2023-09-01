@@ -13,6 +13,12 @@
         "textures": {
           "all": "gregtech:blocks/casings/multiblock_casing/heat_resistant_chemically_inert_machine_casing"
         }
+      },
+      "isa_mill_casing": {
+        "model": "minecraft:cube_all",
+        "textures": {
+          "all": "gregtech:blocks/casings/multiblock_casing/isa_mill_casing"
+        }
       }
     }
   }

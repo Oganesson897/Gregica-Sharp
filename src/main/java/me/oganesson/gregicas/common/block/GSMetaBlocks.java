@@ -1,7 +1,7 @@
 package me.oganesson.gregicas.common.block;
 
-import com.google.common.collect.UnmodifiableIterator;
 import gregtech.common.blocks.MetaBlocks;
+import me.oganesson.gregicas.common.block.blocks.BlockGearBox;
 import me.oganesson.gregicas.common.block.blocks.BlockMultiblockCasing;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
@@ -13,17 +13,21 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class GSMetaBlocks {
     public static BlockMultiblockCasing MULTI_CASING;
+    public static BlockGearBox GEAR_BOX;
 
     private GSMetaBlocks() {}
 
     public static void init() {
         MULTI_CASING = new BlockMultiblockCasing();
         MULTI_CASING.setRegistryName("multiblock_casing");
+        GEAR_BOX = new BlockGearBox();
+        GEAR_BOX.setRegistryName("gear_box.json");
     }
 
     @SideOnly(Side.CLIENT)
     public static void registerItemModels() {
         registerItemModel(MULTI_CASING);
+        registerItemModel(GEAR_BOX);
     }
 
     @SideOnly(Side.CLIENT)
