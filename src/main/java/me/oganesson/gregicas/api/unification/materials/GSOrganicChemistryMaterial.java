@@ -99,7 +99,7 @@ public class GSOrganicChemistryMaterial {
         CalciumHydroxide = new Material.Builder(29012, gregtechId("calcium_hydroxide"))
                 .dust()
                 .color(0xF5F5F5)
-                .components(Calcium, 1,Oxygen , 2,Hydrogen , 2)
+                .components(Calcium, 1,Hydrogen , 2,Oxygen , 2)
                 .build();
 
         R152aChlorideMixture = new Material.Builder(29013, gregtechId("r_152_a_chloride_mixture"))
@@ -143,6 +143,13 @@ public class GSOrganicChemistryMaterial {
                 .dust()
                 .color(0xF08080)
                 .components(Zinc, 1,Chlorine, 2)
+                .build();
+
+        Polyimide = new IngotMaterial(29020, gregtechId("polyimide"))
+                .polymer()
+                .color(0xFF7F50)
+                .components(Calcium, 22,Hydrogen, 12,Nitrogen, 2,Oxygen , 6)
+                .flags(GENERATE_PLATE, GENERATE_FOIL, DISABLE_DECOMPOSITION)
                 .build();
     }
 
