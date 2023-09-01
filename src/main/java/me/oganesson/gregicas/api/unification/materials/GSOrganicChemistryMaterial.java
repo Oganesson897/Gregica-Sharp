@@ -151,6 +151,10 @@ public class GSOrganicChemistryMaterial {
                 .components(Calcium, 22,Hydrogen, 12,Nitrogen, 2,Oxygen , 6)
                 .flags(GENERATE_PLATE, GENERATE_FOIL, DISABLE_DECOMPOSITION)
                 .build();
+        NaZSM5 = new IngotMaterial(29021, gregtechId("nazsm_5"))
+                .dust()
+                .color(0xF8F8FF)
+                .build();
     }
 
 }
