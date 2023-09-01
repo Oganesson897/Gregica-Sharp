@@ -42,9 +42,36 @@ public class GSFirstDegreeMaterial {
                 .components(Bismuth, 47, Lead, 25, Tin, 13, Cadmium, 10, Indium, 5)
                 .build();
 
+    Inconel625 = new Material.Builder(29204, "inconel_625")
+                .ingot()
+                .fluid()
+                .components(Materials.Nickel, 3, Materials.Chromium, 7, Materials.Molybdenum, 10, Materials.Invar, 10, Materials.Nichrome, 13)
+                .flags(GENERATE_RING, GENERATE_BOLT_SCREW, GENERATE_GEAR)
+                .blastTemp(2700, "LOW", 120, 500)
+                .fluidTemp(2700)
+                .color(0x3fcc60)
+                .fluidPipeProperties(550, 6400, true, true, true, true)
+                .build();
 
+    MetallicHydrogen = new Material.Builder(29205, "metallic_hydrogen")
+                .ingot()
+                .fluid()
+                .iconSet(MaterialIconSet.SHINY)
+                .flags(GENERATE_PLATE, GENERATE_RING, GENERATE_ROUND, GENERATE_ROTOR, GENERATE_BOLT_SCREW, GENERATE_GEAR, GENERATE_SMALL_GEAR, GENERATE_LONG_ROD, GENERATE_FRAME)
+                .fluidTemp(1)
+                .color(0x4682B4)
+                .fluidPipeProperties(10240, 24000, true, true, true, true)
+                .components(Hydrogen, 1)
+                .build();
 
-
+    SupersolidHelium = new Material.Builder(29206, "supersolid_helium")
+                .ingot()
+                .fluid()
+                .iconSet(MaterialIconSet.SHINY)
+                .fluidTemp(4)
+                .color(0xFFFF00)
+                .components(Helium, 1)
+                .build();
   
 }
 }
