@@ -26,6 +26,11 @@ public class GSMaterials {
     public static Material F113;
     public static Material ZincChloride;
 
+    public static Material CorrosionResistingNickelbaseAlloys;
+    public static Material NeutronsFlow;
+    public static Material ProtonFlow;
+    public static Material BismuthLeadAlloy;
+
     //Range: 29000 - 31000
 
     public GSMaterials() {}
