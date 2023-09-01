@@ -6,7 +6,6 @@ import me.oganesson.gregicas.common.CommonProxy;
 import me.oganesson.gregicas.common.block.GSMetaBlocks;
 import me.oganesson.gregicas.common.item.GSMetaItems;
 import me.oganesson.gregicas.common.metatileentities.GSMetaTileEntities;
-import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLConstructionEvent;
@@ -17,7 +16,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
         name = "Gregica Sharp",
         acceptedMinecraftVersions = "[1.12.2,1.13)",
         version = "0.0.1-beta",
-        dependencies = "required:forge@[14.23.5.2847,);required:gregtech@[2.7.3-beta,);"
+        dependencies = "required-after:gregtech@[2.7.3-beta,);"
 )
 public class GregicaSharp {
 

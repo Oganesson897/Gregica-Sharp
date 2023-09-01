@@ -2,11 +2,11 @@ package me.oganesson.gregicas.api.unification.materials;
 
 import gregtech.api.fluids.fluidType.FluidTypes;
 import gregtech.api.unification.material.Material;
+import gregtech.api.unification.material.info.MaterialIconSet;
 import gregtech.api.unification.material.properties.BlastProperty;
 
 import static gregtech.api.unification.material.Materials.*;
 import static gregtech.api.unification.material.info.MaterialFlags.*;
-import static gregtech.api.unification.material.info.MaterialIconSet.*;
 import static gregtech.api.util.GTUtility.gregtechId;
 import static me.oganesson.gregicas.api.unification.GSMaterials.*;
 
@@ -42,18 +42,18 @@ public class GSFirstDegreeMaterial {
                 .components(Bismuth, 47, Lead, 25, Tin, 13, Cadmium, 10, Indium, 5)
                 .build();
 
-    Inconel625 = new Material.Builder(29204, "inconel_625")
+    Inconel625 = new Material.Builder(29204, gregtechId("inconel_625"))
                 .ingot()
                 .fluid()
-                .components(Materials.Nickel, 3, Materials.Chromium, 7, Materials.Molybdenum, 10, Materials.Invar, 10, Materials.Nichrome, 13)
+                .components(Nickel, 3, Chrome, 7, Molybdenum, 10, Invar, 10, Nichrome, 13)
                 .flags(GENERATE_RING, GENERATE_BOLT_SCREW, GENERATE_GEAR)
-                .blastTemp(2700, "LOW", 120, 500)
+                .blastTemp(2700, BlastProperty.GasTier.LOW, 120, 500)
                 .fluidTemp(2700)
                 .color(0x3fcc60)
                 .fluidPipeProperties(550, 6400, true, true, true, true)
                 .build();
 
-    MetallicHydrogen = new Material.Builder(29205, "metallic_hydrogen")
+    MetallicHydrogen = new Material.Builder(29205, gregtechId("metallic_hydrogen"))
                 .ingot()
                 .fluid()
                 .iconSet(MaterialIconSet.SHINY)
@@ -64,7 +64,7 @@ public class GSFirstDegreeMaterial {
                 .components(Hydrogen, 1)
                 .build();
 
-    SupersolidHelium = new Material.Builder(29206, "supersolid_helium")
+    SupersolidHelium = new Material.Builder(29206, gregtechId("supersolid_helium"))
                 .ingot()
                 .fluid()
                 .iconSet(MaterialIconSet.SHINY)

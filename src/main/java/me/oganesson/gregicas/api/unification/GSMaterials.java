@@ -30,6 +30,9 @@ public class GSMaterials {
     public static Material NeutronsFlow;
     public static Material ProtonFlow;
     public static Material BismuthLeadAlloy;
+    public static Material Inconel625;
+    public static Material MetallicHydrogen;
+    public static Material SupersolidHelium;
 
     //Range: 29000 - 31000
 
