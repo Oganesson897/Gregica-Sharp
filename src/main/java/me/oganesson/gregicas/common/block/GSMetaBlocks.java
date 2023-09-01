@@ -21,7 +21,7 @@ public class GSMetaBlocks {
         MULTI_CASING = new BlockMultiblockCasing();
         MULTI_CASING.setRegistryName("multiblock_casing");
         GEAR_BOX = new BlockGearBox();
-        GEAR_BOX.setRegistryName("gear_box.json");
+        GEAR_BOX.setRegistryName("gear_box");
     }
 
     @SideOnly(Side.CLIENT)

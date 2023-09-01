@@ -4,7 +4,6 @@ import codechicken.lib.raytracer.CuboidRayTraceResult;
 import codechicken.lib.render.CCRenderState;
 import codechicken.lib.render.pipeline.IVertexOperation;
 import codechicken.lib.vec.Matrix4;
-import com.sun.istack.internal.NotNull;
 import gregtech.api.capability.IMultiblockController;
 import gregtech.api.capability.impl.MultiblockRecipeLogic;
 import gregtech.api.damagesources.DamageSources;
@@ -54,7 +53,6 @@ public class MetaTileEntityIsaMill extends RecipeMapMultiblockController {
         return GSMetaBlocks.GEAR_BOX.getState(BlockGearBox.BlockType.ISA_MILL_GEARBOX);
     }
 
-    @NotNull
     @Override
     protected BlockPattern createStructurePattern() {
         return FactoryBlockPattern.start()

@@ -4,6 +4,7 @@ import gregtech.api.items.metaitem.StandardMetaItem;
 import gregtech.api.unification.material.MarkerMaterials;
 import gregtech.api.unification.ore.OrePrefix;
 import me.oganesson.gregicas.common.CommonProxy;
+import me.oganesson.gregicas.common.item.behaviors.MillBallBehavior;
 
 public class GSMetaItem1 extends StandardMetaItem
 {
@@ -54,6 +55,9 @@ public class GSMetaItem1 extends StandardMetaItem
         GSMetaItems.SUPRACHRONAL_UXV = this.addItem(32, "circuit.suprachronal.uxv").setUnificationData(OrePrefix.circuit, MarkerMaterials.Tier.UXV);
         GSMetaItems.SUPRACHRONAL_OpV = this.addItem(33, "circuit.suprachronal.opv").setUnificationData(OrePrefix.circuit, MarkerMaterials.Tier.OpV);
         GSMetaItems.SUPRACHRONAL_MAX = this.addItem(34, "circuit.suprachronal.max").setUnificationData(OrePrefix.circuit, MarkerMaterials.Tier.MAX);
+
+        GSMetaItems.GRINDBALL_SOAPSTONE = this.addItem(44, "item.soapstone.ball").setMaxStackSize(1).setCreativeTabs(CommonProxy.GREGICA_TAB).addComponents(new MillBallBehavior());
+        GSMetaItems.GRINDBALL_ALUMINIUM = this.addItem(45, "item.aluminium.ball").setMaxStackSize(1).setCreativeTabs(CommonProxy.GREGICA_TAB).addComponents(new MillBallBehavior());
     }
 
 }

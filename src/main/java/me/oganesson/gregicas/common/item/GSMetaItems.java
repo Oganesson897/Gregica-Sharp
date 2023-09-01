@@ -58,6 +58,8 @@ public class GSMetaItems
     public static MetaItem<?>.MetaValueItem SUPRACHRONAL_MAX;
 
     //Misc
+    public static MetaItem<?>.MetaValueItem GRINDBALL_SOAPSTONE;
+    public static MetaItem<?>.MetaValueItem GRINDBALL_ALUMINIUM;
 
     private GSMetaItems() {}
 

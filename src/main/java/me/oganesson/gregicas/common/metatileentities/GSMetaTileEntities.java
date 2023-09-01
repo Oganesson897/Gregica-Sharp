@@ -5,17 +5,21 @@ import gregtech.api.metatileentity.MetaTileEntity;
 import gregtech.api.metatileentity.multiblock.MultiblockControllerBase;
 import gregtech.common.metatileentities.MetaTileEntities;
 import me.oganesson.gregicas.api.utils.GSLog;
+import me.oganesson.gregicas.common.metatileentities.multi.MetaTileEntityIsaMill;
 import me.oganesson.gregicas.common.metatileentities.multi.MetaTileEntityPrecisionBoilingDistillationTower;
 import me.oganesson.gregicas.common.metatileentities.multi.generators.MetaTileEntityLightningRod;
+import me.oganesson.gregicas.common.metatileentities.multi.part.MetaTileEntityBallHatch;
 
 import static me.oganesson.gregicas.api.GSValue.gregicasId;
 
 public class GSMetaTileEntities {
 
     public static MetaTileEntityLightningRod[] LIGHTNING_ROD = new MetaTileEntityLightningRod[3];
+    public static MetaTileEntityBallHatch GRIND_BALL_HATCH;
 
     //Multi
     public static MetaTileEntityPrecisionBoilingDistillationTower PBDT;
+    public static MetaTileEntityIsaMill ISA_MILL;
 
     //ID Range: 20000 - 21000
 
@@ -27,8 +31,11 @@ public class GSMetaTileEntities {
         LIGHTNING_ROD[1] = registerSingleMetaTileEntity(1, new MetaTileEntityLightningRod(gregicasId("lightning_rod.ev"), GTValues.EV));
         LIGHTNING_ROD[2] = registerSingleMetaTileEntity(2, new MetaTileEntityLightningRod(gregicasId("lightning_rod.iv"), GTValues.IV));
 
+        GRIND_BALL_HATCH = registerSingleMetaTileEntity(3, new MetaTileEntityBallHatch(gregicasId("ball_hatch")));
+
         //Multi: 20301 - 21000
         PBDT = registerMultiMetaTileEntity(0, new MetaTileEntityPrecisionBoilingDistillationTower(gregicasId("pbdt")));
+        ISA_MILL = registerMultiMetaTileEntity(1, new MetaTileEntityIsaMill(gregicasId("isa_mill")));
     }
 
     private static <T extends MetaTileEntity> T registerSingleMetaTileEntity(int id, T mte) {
