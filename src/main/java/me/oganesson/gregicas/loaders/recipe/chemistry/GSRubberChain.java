@@ -149,3 +149,16 @@ LARGE_CHEMICAL_RECIPES.recipeBuilder()
   .duration(800)
   .EUt(524288)
   .buildAndRegister();
+
+LARGE_CHEMICAL_RECIPES.recipeBuilder()
+  .fluidInputs(VDF.getFluid(23000))
+  .fluidInputs(Chlorotrifluoroethylene.getFluid(14000))
+  .fluidInputs((SodiumPersulfate.getFluid(1000))
+  .notConsumable(dust, SodiumBisulfate, 64)
+  .output(dust, FluoroResin2314, 64)
+  .output(dust, FluoroResin2314, 64)
+  .output(dust, FluoroResin2314, 64)
+  .output(dust, FluoroResin2314, 15)
+  .duration(1000)
+  .EUt(524288)
+  .buildAndRegister();
