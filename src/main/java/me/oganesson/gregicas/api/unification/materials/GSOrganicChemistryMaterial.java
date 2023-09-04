@@ -24,7 +24,7 @@ public class GSOrganicChemistryMaterial {
                 .polymer()
                 .color(0x211A18).iconSet(SHINY)
                 .flags(GENERATE_PLATE, GENERATE_RING, GENERATE_FOIL, DISABLE_DECOMPOSITION)
-                .components(Carbon, 5, Hydrogen, 5, Nitrogen, 1, Fluorine, 2)
+                .components(VDF, 23, Chlorotrifluoroethylene, 14)
                 .build();
 
         FluoroPhosphazeneRubber = new Material.Builder(29002, gregtechId("fluoro_phosphazene_rubber"))
