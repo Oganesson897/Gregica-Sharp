@@ -151,9 +151,17 @@ public class GSOrganicChemistryMaterial {
                 .components(Calcium, 22,Hydrogen, 12,Nitrogen, 2,Oxygen , 6)
                 .flags(GENERATE_PLATE, GENERATE_FOIL, DISABLE_DECOMPOSITION)
                 .build();
+        
         NaZSM5 = new IngotMaterial(29021, gregtechId("nazsm_5"))
                 .dust()
                 .color(0xF8F8FF)
+                .build();
+
+        Aniline = new SimpleFluidMaterial(29022, gregtechId("aniline"))
+                .fluid(FluidTypes.LIQUID, false)
+                .color(0x4c911d)
+                .components(Calcium, 6,Hydrogen, 5,Nitrogen, 1,Hydrogen , 2)
+                .flags(DISABLE_DECOMPOSITION)
                 .build();
     }
 
