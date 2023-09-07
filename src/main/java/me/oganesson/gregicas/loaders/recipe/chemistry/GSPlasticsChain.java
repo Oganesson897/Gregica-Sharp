@@ -1,1 +1,20 @@
+BLAST_RECIPES.recipeBuilder()
+  .input(dust, SiliconDioxide, 50)
+  .input(dust, Sapphire, 4)
+  .input(dust, SodaAsh, 1)
+  .output(dust, NaZSM5, 1)
+  .fluidOutputs(CarbonDioxide.getFluid(300))
+  .duration(1000)
+  .blastFurnaceTemp(10240)
+  .EUt(1572864)
+  .buildAndRegister();
 
+CHEMICAL_RECIPES.recipeBuilder()
+  .fluidInputs(Nitrobenzene.getFluid(1000))
+  .fluidInputs(Hydrogen.getFluid(6000))
+  .notConsumable(dust, Platinum)
+  .fluidOutputs(Aniline.getFluid(1000))
+  .fluidOutputs(Water.getFluid(2000))
+  .duration(800)
+  .EUt(6144)
+  .buildAndRegister();
