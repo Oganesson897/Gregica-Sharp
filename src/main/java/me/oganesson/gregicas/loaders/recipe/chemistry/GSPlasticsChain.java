@@ -10,11 +10,22 @@ BLAST_RECIPES.recipeBuilder()
   .buildAndRegister();
 
 CHEMICAL_RECIPES.recipeBuilder()
-  .fluidInputs(Nitrobenzene.getFluid(1000))
+  .fluidInputs(Nitrochlorobenzene.getFluid(1000))
+  .fluidInputs(Ammonia.getFluid(2000))
+  .notConsumable(Water.getFluid(2000))
+  .notConsumable(dust, Copper)
+  .output(dust, PPhenylenediamine, 1)
+  .output(dust, AmmoniumChloride, 2)
+  .duration(1000)
+  .EUt(98304)
+  .buildAndRegister();
+
+CHEMICAL_RECIPES.recipeBuilder()
+  .input(dust, PPhenylenediamine, 1)
   .fluidInputs(Hydrogen.getFluid(6000))
   .notConsumable(dust, Platinum)
-  .fluidOutputs(Aniline.getFluid(1000))
+  .output(dust, PPhenylenediamine, 1)
   .fluidOutputs(Water.getFluid(2000))
-  .duration(800)
-  .EUt(6144)
+  .duration(9600)
+  .EUt(24576)
   .buildAndRegister();
