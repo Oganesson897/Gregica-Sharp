@@ -157,10 +157,17 @@ public class GSOrganicChemistryMaterial {
                 .color(0xF8F8FF)
                 .build();
 
-        Aniline = new SimpleFluidMaterial(29022, gregtechId("aniline"))
-                .fluid(FluidTypes.LIQUID, false)
+        PNitroaniline = new SimpleFluidMaterial(29022, gregtechId("p_nitroaniline"))
+                .dust()
+                .color(0x4c918c)
+                .components(Calcium, 6,Hydrogen, 6,Nitrogen, 2,Oxygen , 2)
+                .flags(DISABLE_DECOMPOSITION)
+                .build();
+
+        PPhenylenediamine = new SimpleFluidMaterial(29023, gregtechId("p_phenylenediamine"))
+                .dust()
                 .color(0x4c911d)
-                .components(Calcium, 6,Hydrogen, 5,Nitrogen, 1,Hydrogen , 2)
+                .components(Calcium, 6,Hydrogen, 8,Nitrogen, 2)
                 .flags(DISABLE_DECOMPOSITION)
                 .build();
     }
