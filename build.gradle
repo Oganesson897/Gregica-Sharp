@@ -117,6 +117,8 @@ dependencies {
 
     implementation "mezz.jei:jei_1.12.2:${jei_version}"
 
+    implementation 'org.jetbrains:annotations:24.0.0'
+
 
     if (project.use_mixins.toBoolean()) {
         // Change your mixin refmap name here:

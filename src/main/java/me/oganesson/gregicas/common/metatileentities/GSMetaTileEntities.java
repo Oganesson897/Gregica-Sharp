@@ -5,6 +5,7 @@ import gregtech.api.metatileentity.MetaTileEntity;
 import gregtech.api.metatileentity.multiblock.MultiblockControllerBase;
 import gregtech.common.metatileentities.MetaTileEntities;
 import me.oganesson.gregicas.api.utils.GSLog;
+import me.oganesson.gregicas.common.metatileentities.multi.MetaTileEntityIndustrialFishingPond;
 import me.oganesson.gregicas.common.metatileentities.multi.MetaTileEntityIsaMill;
 import me.oganesson.gregicas.common.metatileentities.multi.MetaTileEntityPrecisionBoilingDistillationTower;
 import me.oganesson.gregicas.common.metatileentities.multi.generators.MetaTileEntityLightningRod;
@@ -20,6 +21,7 @@ public class GSMetaTileEntities {
     //Multi
     public static MetaTileEntityPrecisionBoilingDistillationTower PBDT;
     public static MetaTileEntityIsaMill ISA_MILL;
+    public static MetaTileEntityIndustrialFishingPond INDUSTRIAL_FISHING_POND;
 
     //ID Range: 20000 - 21000
 
@@ -36,6 +38,7 @@ public class GSMetaTileEntities {
         //Multi: 20301 - 21000
         PBDT = registerMultiMetaTileEntity(0, new MetaTileEntityPrecisionBoilingDistillationTower(gregicasId("pbdt")));
         ISA_MILL = registerMultiMetaTileEntity(1, new MetaTileEntityIsaMill(gregicasId("isa_mill")));
+        INDUSTRIAL_FISHING_POND = registerMultiMetaTileEntity(2, new MetaTileEntityIndustrialFishingPond(gregicasId("industrial_fishing_pond")));
     }
 
     private static <T extends MetaTileEntity> T registerSingleMetaTileEntity(int id, T mte) {

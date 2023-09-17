@@ -19,6 +19,12 @@
         "textures": {
           "all": "gregtech:blocks/casings/multiblock_casing/isa_mill_casing"
         }
+      },
+      "fishing_casing": {
+        "model": "minecraft:cube_all",
+        "textures": {
+          "all": "gregtech:blocks/casings/multiblock_casing/fishing_casing"
+        }
       }
     }
   }

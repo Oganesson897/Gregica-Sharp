@@ -57,6 +57,52 @@ public class GSMetaItems
     public static MetaItem<?>.MetaValueItem SUPRACHRONAL_OpV;
     public static MetaItem<?>.MetaValueItem SUPRACHRONAL_MAX;
 
+    // Circuit Boards
+    public static MetaItem<?>.MetaValueItem GOOWARE_BOARD;
+    public static MetaItem<?>.MetaValueItem OPTICAL_BOARD;
+    public static MetaItem<?>.MetaValueItem SPINTRONIC_BOARD;
+    public static MetaItem<?>.MetaValueItem GOOWARE_CIRCUIT_BOARD;
+    public static MetaItem<?>.MetaValueItem OPTICAL_CIRCUIT_BOARD;
+    public static MetaItem<?>.MetaValueItem SPINTRONIC_CIRCUIT_BOARD;
+
+    // SMDs
+    public static MetaItem<?>.MetaValueItem OPTICAL_CAPACITOR;
+    public static MetaItem<?>.MetaValueItem OPTICAL_DIODE;
+    public static MetaItem<?>.MetaValueItem OPTICAL_RESISTOR;
+    public static MetaItem<?>.MetaValueItem OPTICAL_TRANSISTOR;
+    public static MetaItem<?>.MetaValueItem OPTICAL_INDUCTOR;
+    public static MetaItem<?>.MetaValueItem SPINTRONIC_CAPACITOR;
+    public static MetaItem<?>.MetaValueItem SPINTRONIC_DIODE;
+    public static MetaItem<?>.MetaValueItem SPINTRONIC_RESISTOR;
+    public static MetaItem<?>.MetaValueItem SPINTRONIC_TRANSISTOR;
+    public static MetaItem<?>.MetaValueItem SPINTRONIC_INDUCTOR;
+
+    // Gooware Circuit Components
+    public static MetaItem<?>.MetaValueItem BZ_REACTION_CHAMBER;
+    public static MetaItem<?>.MetaValueItem NONLINEAR_CHEMICAL_OSCILLATOR;
+
+    // Optical Circuit Components
+    public static MetaItem<?>.MetaValueItem PHASE_CHANGE_MEMORY;
+    public static MetaItem<?>.MetaValueItem OPTICAL_FIBER;
+    public static MetaItem<?>.MetaValueItem DIELECTRIC_MIRROR;
+    public static MetaItem<?>.MetaValueItem EMPTY_LASER_ASSEMBLY;
+    public static MetaItem<?>.MetaValueItem HELIUM_NEON_LASER;
+    public static MetaItem<?>.MetaValueItem ND_YAG_LASER;
+    public static MetaItem<?>.MetaValueItem OPTICAL_LASER_CONTROL_UNIT;
+
+    // Spintronic Circuit Components
+    public static MetaItem<?>.MetaValueItem SPIN_TRANSFER_TORQUE_MEMORY;
+    public static MetaItem<?>.MetaValueItem TOPOLOGICAL_INSULATOR_TUBE;
+    public static MetaItem<?>.MetaValueItem BOSE_EINSTEIN_CONDENSATE_CONTAINMENT_UNIT;
+    public static MetaItem<?>.MetaValueItem BOSE_EINSTEIN_CONDENSATE;
+    public static MetaItem<?>.MetaValueItem ESR_COMPUTATION_UNIT;
+
+    // Supra-Causal Circuit Components
+    public static MetaItem<?>.MetaValueItem EIGENFOLDED_KERR_MANIFOLD;
+
+    // Supra-Chronal Circuit Components
+    public static MetaItem<?>.MetaValueItem HYPERDIMENSIONAL_DRONE;
+
     //Misc
     public static MetaItem<?>.MetaValueItem GRINDBALL_SOAPSTONE;
     public static MetaItem<?>.MetaValueItem GRINDBALL_ALUMINIUM;

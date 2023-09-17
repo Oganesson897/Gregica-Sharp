@@ -9,6 +9,7 @@ public class GSTextures {
     public static OrientedOverlayRenderer LIGHTNING_ROD_OVERLAY;
     public static SimpleOverlayRenderer HEAT_RESISTANT_CHEMICALLY_INERT_MACHINE_CASING;
     public static SimpleOverlayRenderer ISA_MILL_CASING;
+    public static SimpleOverlayRenderer FISHING_CASING;
     public static SimpleOverlayRenderer BALL_HATCH;
     public static final IsaMillRenderer ISA_MILL = new IsaMillRenderer();
 
@@ -16,6 +17,7 @@ public class GSTextures {
         LIGHTNING_ROD_OVERLAY = new OrientedOverlayRenderer("generators/lightning_rod");
         HEAT_RESISTANT_CHEMICALLY_INERT_MACHINE_CASING = new SimpleOverlayRenderer("casings/multiblock_casing/heat_resistant_chemically_inert_machine_casing");
         BALL_HATCH = new SimpleOverlayRenderer("multipart/overlay_grindball");
+        FISHING_CASING = new SimpleOverlayRenderer("casings/multiblock_casing/fishing_casing");
         ISA_MILL_CASING = new SimpleOverlayRenderer("casings/multiblock_casing/isa_mill_casing");
     }
 

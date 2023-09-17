@@ -24,8 +24,9 @@ public class GSOrganicChemistryMaterial {
                 .polymer()
                 .color(0x211A18).iconSet(SHINY)
                 .flags(GENERATE_PLATE, GENERATE_RING, GENERATE_FOIL, DISABLE_DECOMPOSITION)
-                .components(VDF, 23, Chlorotrifluoroethylene, 14)
-                .build();
+                .components(Carbon, 74, Hydrogen, 46, Fluorine, 88, Chlorine, 14)
+                .build()
+                .setFormula("(C2H2F2)23(C2ClF3)14", true);
 
         FluoroPhosphazeneRubber = new Material.Builder(29002, gregtechId("fluoro_phosphazene_rubber"))
                 .polymer()
@@ -142,16 +143,16 @@ public class GSOrganicChemistryMaterial {
         ZincChloride = new Material.Builder(29019, gregtechId("zinc_chloride"))
                 .dust()
                 .color(0xF08080)
-                .components(Zinc, 1,Chlorine, 2)
+                .components(Zinc, 1, Chlorine, 2)
                 .build();
 
-        Polyimide = new IngotMaterial(29020, gregtechId("polyimide"))
+        Polyimide = new Material.Builder(29020, gregtechId("polyimide"))
                 .polymer()
                 .color(0xFF7F50)
-                .components(Calcium, 22,Hydrogen, 12,Nitrogen, 2,Oxygen , 6)
+                .components(Calcium, 22, Hydrogen, 12, Nitrogen, 2, Oxygen, 6)
                 .flags(GENERATE_PLATE, GENERATE_FOIL, DISABLE_DECOMPOSITION)
                 .build();
-        NaZSM5 = new IngotMaterial(29021, gregtechId("nazsm_5"))
+        NaZSM5 = new Material.Builder(29021, gregtechId("nazsm_5"))
                 .dust()
                 .color(0xF8F8FF)
                 .build();

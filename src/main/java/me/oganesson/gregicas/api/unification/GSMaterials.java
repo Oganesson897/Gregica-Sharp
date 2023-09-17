@@ -25,6 +25,8 @@ public class GSMaterials {
     public static Material Hexachloroethane;
     public static Material F113;
     public static Material ZincChloride;
+    public static Material Polyimide;
+    public static Material NaZSM5;
 
     public static Material CorrosionResistingNickelbaseAlloys;
     public static Material NeutronsFlow;
