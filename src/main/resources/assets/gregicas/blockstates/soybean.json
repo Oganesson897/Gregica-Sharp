@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": { "model": "gregicas:soybean/soybean_stage0" },
+    "age=1": { "model": "gregicas:soybean/soybean_stage0" },
+    "age=2": { "model": "gregicas:soybean/soybean_stage1" },
+    "age=3": { "model": "gregicas:soybean/soybean_stage1" },
+    "age=4": { "model": "gregicas:soybean/soybean_stage2" },
+    "age=5": { "model": "gregicas:soybean/soybean_stage2" },
+    "age=6": { "model": "gregicas:soybean/soybean_stage2" },
+    "age=7": { "model": "gregicas:soybean/soybean_stage3" }
+  }
+}

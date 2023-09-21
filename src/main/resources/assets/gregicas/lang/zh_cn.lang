@@ -91,6 +91,75 @@ metaitem.circuit.suprachronal.opv.tooltip=§fOpV级电路/n
 metaitem.circuit.suprachronal.max.name=超时空高强电路
 metaitem.circuit.suprachronal.max.tooltip=§fMAX级电路/n
 
+# Optical Stuff
+metaitem.plate.phase_change_memory.name=PRAM
+metaitem.plate.phase_change_memory.tooltip=相变内存
+metaitem.optical_fiber.name=光纤
+metaitem.optical_fiber.tooltip=透光玻璃
+metaitem.dielectric_mirror.name=介电镜
+metaitem.dielectric_mirror.tooltip=布拉格之镜
+metaitem.laser.assembly.empty.name=空激光组件
+metaitem.laser.assembly.empty.tooltip=用一些激光介质填充它
+metaitem.laser.helium_neon.name=氦氖激光
+metaitem.laser.helium_neon.tooltip=用途：弱光学设备
+metaitem.laser.nd_yag.name=掺钕钇铝石榴石激光(Nd:YAG)
+metaitem.laser.nd_yag.tooltip=用途：强光学设备
+
+# Spintronic Stuff
+metaitem.plate.spin_transfer_torque_memory.name=STTRAM
+metaitem.plate.spin_transfer_torque_memory.tooltip=自旋转移扭矩记忆
+metaitem.tube.topological_insulator.name=拓扑绝缘管
+metaitem.tube.topological_insulator.tooltip=导电表面态
+metaitem.containment_unit.bose_einstein_condensate.name=玻色-爱因斯坦冷凝液遏制装置
+metaitem.containment_unit.bose_einstein_condensate.tooltip=磁蒸发冷却
+metaitem.bose_einstein_condensate.name=玻色-爱因斯坦凝聚体
+metaitem.bose_einstein_condensate.tooltip=2,000§cRb-87§7原子，§b170nK§7！
+
+# Circuit Boards
+metaitem.board.gooware.name=聚酰亚胺电路基板
+metaitem.board.gooware.tooltip=这是极好的
+metaitem.board.optical.name=氮化镓电路基板
+metaitem.board.optical.tooltip=这是最终...大概吧
+metaitem.board.spintronic.name=碳纳米管电路基板
+metaitem.board.spintronic.tooltip=无穷电路板
+metaitem.circuit_board.gooware.name=超级电路板
+metaitem.circuit_board.gooware.tooltip=执行反应的电路板
+metaitem.circuit_board.optical.name=终极电路板
+metaitem.circuit_board.optical.tooltip=传输光的电路板
+metaitem.circuit_board.spintronic.name=无限电路板
+metaitem.circuit_board.spintronic.tooltip=引导旋转的电路板
+
+# SMDs
+metaitem.component.optical_smd.capacitor.name=光集成器
+metaitem.component.optical_smd.capacitor.tooltip=光电电容
+metaitem.component.optical_smd.diode.name=光隔离器
+metaitem.component.optical_smd.diode.tooltip=光电二极管
+metaitem.component.optical_smd.resistor.name=光敏电阻
+metaitem.component.optical_smd.resistor.tooltip=光电电阻
+metaitem.component.optical_smd.transistor.name=光晶体管
+metaitem.component.optical_smd.transistor.tooltip=光电晶体管
+metaitem.component.optical_smd.inductor.name=光学偏振器
+metaitem.component.optical_smd.inductor.tooltip=光电电感器
+metaitem.component.spintronic_smd.capacitor.name=超级电容
+metaitem.component.spintronic_smd.capacitor.tooltip=自旋电子电容器
+metaitem.component.spintronic_smd.diode.name=肖特基二极管
+metaitem.component.spintronic_smd.diode.tooltip=自旋电子二极管
+metaitem.component.spintronic_smd.resistor.name=磁阻器
+metaitem.component.spintronic_smd.resistor.tooltip=自旋电子电阻器
+metaitem.component.spintronic_smd.transistor.name=自旋金氧半场效晶体管
+metaitem.component.spintronic_smd.transistor.tooltip=自旋电子晶体管
+metaitem.component.spintronic_smd.inductor.name=自旋偏振器
+metaitem.component.spintronic_smd.inductor.tooltip=自旋电子电感器
+
+# Processing Units
+metaitem.reaction_chamber.bz.name=B-Z振荡反应室
+metaitem.nonlinear_chemical_oscillator.name=非线性化学振荡器
+metaitem.nonlinear_chemical_oscillator.tooltip=非平衡热力学！
+metaitem.optical_laser_control_unit.name=光学激光控制装置
+metaitem.optical_laser_control_unit.tooltip=激光信息传输
+metaitem.esr_computation_unit.name=ESR计算单元
+metaitem.esr_computation_unit.tooltip=电子自旋共振量子计算！
+
 # Materials
 gregtech.material.nitrile_butadiene_rubber=丁腈橡胶
 gregtech.material.fluoro_resin_2314=氟橡胶23

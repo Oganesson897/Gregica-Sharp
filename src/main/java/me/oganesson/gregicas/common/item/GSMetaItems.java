@@ -107,16 +107,22 @@ public class GSMetaItems
     public static MetaItem<?>.MetaValueItem GRINDBALL_SOAPSTONE;
     public static MetaItem<?>.MetaValueItem GRINDBALL_ALUMINIUM;
 
+    //Support for GTFO
+    public static MetaItem<?>.MetaValueItem BEEF_SKEWER_RAW;
+    public static MetaItem<?>.MetaValueItem BEEF_SKEWER_COOKED;
+
     private GSMetaItems() {}
 
     public static void initialization()
     {
         GSMetaItem1 item1 = new GSMetaItem1();
+        GSMetaItem2 item2 = new GSMetaItem2();
     }
 
     public static void initSubItems()
     {
         GSMetaItem1.registerItems();
+        GSMetaItem2.registerItems();
     }
 
 }

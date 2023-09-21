@@ -1,5 +1,7 @@
 package me.oganesson.gregicas.loaders.recipe;
 
+import me.oganesson.gregicas.loaders.GSDepenLoader;
+
 public class GSRecipeManager
 {
 
@@ -9,6 +11,7 @@ public class GSRecipeManager
     {
         GSCircuitRecipes.init();
         GSMachineRecipes.init();
+        if (GSDepenLoader.isGTFOLoader() )GSFoodRecipes.init();
     }
 
 }

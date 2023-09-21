@@ -99,8 +99,6 @@ public class GSMetaItem1 extends StandardMetaItem
         ESR_COMPUTATION_UNIT = this.addItem(75, "esr_computation_unit");
 
         EIGENFOLDED_KERR_MANIFOLD = this.addItem(76, "eigenfolded.kerr.manifold");
-
-
         HYPERDIMENSIONAL_DRONE = this.addItem(77, "hyperdimensional.drone");
     }
 

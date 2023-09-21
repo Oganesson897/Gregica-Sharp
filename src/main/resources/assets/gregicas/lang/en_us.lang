@@ -91,6 +91,75 @@ metaitem.circuit.suprachronal.opv.tooltip=§fOpV-tier Circuit/n
 metaitem.circuit.suprachronal.max.name=Supra-Chronal Maximum Circuit
 metaitem.circuit.suprachronal.max.tooltip=§fMAX-tier Circuit/n
 
+# Optical Stuff
+metaitem.plate.phase_change_memory.name=PRAM
+metaitem.plate.phase_change_memory.tooltip=Phase-change Memory
+metaitem.optical_fiber.name=Optical Fiber
+metaitem.optical_fiber.tooltip=Light-transmitting Glass
+metaitem.dielectric_mirror.name=Dielectric Mirror
+metaitem.dielectric_mirror.tooltip=Bragg Mirror
+metaitem.laser.assembly.empty.name=Empty Laser Assembly
+metaitem.laser.assembly.empty.tooltip=Fill this with some Laser Medium
+metaitem.laser.helium_neon.name=Helium-Neon Laser
+metaitem.laser.helium_neon.tooltip=Purpose: Weak Optical Appliances
+metaitem.laser.nd_yag.name=Nd:YAG Laser
+metaitem.laser.nd_yag.tooltip=Purpose: Strong Optical Appliances
+
+# Spintronic Stuff
+metaitem.plate.spin_transfer_torque_memory.name=STTRAM
+metaitem.plate.spin_transfer_torque_memory.tooltip=Spin-Transfer Torque Memory
+metaitem.tube.topological_insulator.name=Topological Insulator Tube
+metaitem.tube.topological_insulator.tooltip=Conductive Surface States
+metaitem.containment_unit.bose_einstein_condensate.name=Bose-Einstein Condensate Containment Unit
+metaitem.containment_unit.bose_einstein_condensate.tooltip=Magnetic Evaporative Cooling
+metaitem.bose_einstein_condensate.name=Bose-Einstein Condensate
+metaitem.bose_einstein_condensate.tooltip=2,000 §cRb-87§7 Atoms at §b170nK§7!
+
+# Circuit Boards
+metaitem.board.gooware.name=Kapton Circuit Board
+metaitem.board.gooware.tooltip=A Super Board
+metaitem.board.optical.name=Gallium Nitride Circuit Board
+metaitem.board.optical.tooltip=An Ultimate Board
+metaitem.board.spintronic.name=Carbon Nanotube Circuit Board
+metaitem.board.spintronic.tooltip=An Infinite Board
+metaitem.circuit_board.gooware.name=Super Circuit Board
+metaitem.circuit_board.gooware.tooltip=The Board that performs Reactions
+metaitem.circuit_board.optical.name=Ultimate Circuit Board
+metaitem.circuit_board.optical.tooltip=The Board that transmits Light
+metaitem.circuit_board.spintronic.name=Infinite Circuit Board
+metaitem.circuit_board.spintronic.tooltip=The Board that directs Spin
+
+# SMDs
+metaitem.component.optical_smd.capacitor.name=Optical Integrator
+metaitem.component.optical_smd.capacitor.tooltip=Optoelectronic Capacitor
+metaitem.component.optical_smd.diode.name=Optical Isolator
+metaitem.component.optical_smd.diode.tooltip=Optoelectronic Diode
+metaitem.component.optical_smd.resistor.name=Photoresistor
+metaitem.component.optical_smd.resistor.tooltip=Optoelectronic Resistor
+metaitem.component.optical_smd.transistor.name=Optical Transistor
+metaitem.component.optical_smd.transistor.tooltip=Optoelectronic Transistor
+metaitem.component.optical_smd.inductor.name=Optical Polarizer
+metaitem.component.optical_smd.inductor.tooltip=Optoelectronic Inductor
+metaitem.component.spintronic_smd.capacitor.name=Supercapacitor
+metaitem.component.spintronic_smd.capacitor.tooltip=Spin-Electronic Capacitor
+metaitem.component.spintronic_smd.diode.name=Schottky Diode
+metaitem.component.spintronic_smd.diode.tooltip=Spin-Electronic Diode
+metaitem.component.spintronic_smd.resistor.name=Magnetorestrictor
+metaitem.component.spintronic_smd.resistor.tooltip=Spin-Electronic Resistor
+metaitem.component.spintronic_smd.transistor.name=Spin MOSFET
+metaitem.component.spintronic_smd.transistor.tooltip=Spin-Electronic Transistor
+metaitem.component.spintronic_smd.inductor.name=Spin Polarizer
+metaitem.component.spintronic_smd.inductor.tooltip=Spin-Electronic Inductor
+
+# Processing Units
+metaitem.reaction_chamber.bz.name=Belousov-Zhabotinsky Reaction Chamber
+metaitem.nonlinear_chemical_oscillator.name=Nonlinear Chemical Oscillator
+metaitem.nonlinear_chemical_oscillator.tooltip=Non-equilibrium Thermodynamics!
+metaitem.optical_laser_control_unit.name=Optical Laser Control Unit
+metaitem.optical_laser_control_unit.tooltip=Laser Information Transmission
+metaitem.esr_computation_unit.name=ESR Computation Unit
+metaitem.esr_computation_unit.tooltip=Electron Spin Resonance Quantum Computation!
+
 # Materials
 gregtech.material.nitrile_butadiene_rubber=Nitrile Butadiene Rubber
 gregtech.material.fluoro_resin_2314=Fluoro Resin 23-14

@@ -1,7 +1,10 @@
 package me.oganesson.gregicas.api.unification;
 
 import gregtech.api.unification.material.Material;
+import me.oganesson.gregicas.api.unification.materials.GSFirstDegreeMaterial;
+import me.oganesson.gregicas.api.unification.materials.GSFoodOptionAddonMaterials;
 import me.oganesson.gregicas.api.unification.materials.GSOrganicChemistryMaterial;
+import me.oganesson.gregicas.loaders.GSDepenLoader;
 
 public class GSMaterials {
 
@@ -27,6 +30,8 @@ public class GSMaterials {
     public static Material ZincChloride;
     public static Material Polyimide;
     public static Material NaZSM5;
+    public static Material PNitroaniline;
+    public static Material PPhenylenediamine;
 
     public static Material CorrosionResistingNickelbaseAlloys;
     public static Material NeutronsFlow;
@@ -36,6 +41,10 @@ public class GSMaterials {
     public static Material MetallicHydrogen;
     public static Material SupersolidHelium;
 
+    //Support for GTFO
+    public static Material SoySauce;
+    public static Material SoybeanOil;
+
     //Range: 29000 - 31000
 
     public GSMaterials() {}
@@ -43,6 +52,8 @@ public class GSMaterials {
     public static void register()
     {
         GSOrganicChemistryMaterial.register();
+        GSFirstDegreeMaterial.register();
+        if (GSDepenLoader.isGTFOLoader()) GSFoodOptionAddonMaterials.register();
     }
 
 }
