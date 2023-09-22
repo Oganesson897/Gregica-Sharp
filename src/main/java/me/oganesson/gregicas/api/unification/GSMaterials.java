@@ -41,6 +41,8 @@ public class GSMaterials {
     public static Material MetallicHydrogen;
     public static Material SupersolidHelium;
 
+    public static Material GelidCryotheum;
+
     //Support for GTFO
     public static Material SoySauce;
     public static Material SoybeanOil;

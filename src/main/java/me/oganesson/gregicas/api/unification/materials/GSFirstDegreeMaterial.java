@@ -72,6 +72,11 @@ public class GSFirstDegreeMaterial {
                 .color(0xFFFF00)
                 .components(Helium, 1)
                 .build();
-  
+
+    GelidCryotheum = new Material.Builder(29207, gregtechId("gelid_cryotheum"))
+            .color(0x40B8FB)
+            .fluid(FluidTypes.LIQUID, true)
+            .fluidTemp(0)
+            .build();
 }
 }

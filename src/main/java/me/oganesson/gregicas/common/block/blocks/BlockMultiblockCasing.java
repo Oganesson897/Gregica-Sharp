@@ -31,7 +31,8 @@ public class BlockMultiblockCasing extends VariantBlock<BlockMultiblockCasing.Ca
     public static enum CasingType implements IStringSerializable {
         HEAT_RESISTANT_CHEMICALLY_INERT_MACHINE_CASING("heat_resistant_chemically_inert_machine_casing"),
         ISA_MILL_CASING("isa_mill_casing"),
-        FISHING_CASING("fishing_casing");
+        FISHING_CASING("fishing_casing"),
+        RADIATION_RESISTANCE_CASING("radiation_resistance_casing");
         
         private final String name;
 

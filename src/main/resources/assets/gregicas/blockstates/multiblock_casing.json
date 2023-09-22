@@ -25,6 +25,12 @@
         "textures": {
           "all": "gregtech:blocks/casings/multiblock_casing/fishing_casing"
         }
+      },
+      "radiation_resistance_casing": {
+        "model": "minecraft:cube_all",
+        "textures": {
+          "all": "gregtech:blocks/casings/multiblock_casing/radiation_resistance_casing"
+        }
       }
     }
   }
